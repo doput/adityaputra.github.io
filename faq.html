@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dist/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <!--Header Start-->
+    <header
+      class="bg-transparent fixed top-0 left-0 w-full flex items-center z-10"
+    >
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <div class="px-4">
+            <a href="#home" class="font-bold text-2xl block py-6 text-slate-900"
+              >STower<span class="text-secondary">.</span></a
+            >
+          </div>
+          <div class="flex items-center px-4">
+            <button
+              id="hamburger"
+              name="hamburger"
+              type="button"
+              class="block absolute right-4 lg:hidden"
+            >
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-top-left"
+              ></span>
+              <span class="hamburger-line duration-300 ease-in-out"></span>
+              <span
+                class="hamburger-line duration-300 ease-in-out origin-bottom-left"
+              ></span>
+            </button>
+
+            <nav
+              id="nav-menu"
+              class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg-max-w-full lg:shadow-none lg:rounded-none"
+            >
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a
+                    href="./index.html"
+                    class="text-base text-slate-800 py-2 mx-8 flex group-hover:text-primary"
+                    >Beranda</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="./faq.html"
+                    class="text-base text-slate-800 py-2 mx-8 flex group-hover:text-primary"
+                    >FAQ</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#home"
+                    class="text-base text-slate-800 py-2 mx-8 flex group-hover:text-primary"
+                    >About</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--Header End-->
+
+    <!--Section Content-->
+    <div class="container p-8 mt-16">
+      <div>
+        <div class="w-96">
+          <h1
+            class="text-4xl lg:text-5xl font-bold text-slate-900 sm:flex-initial w-40"
+          >
+            STower <span class="text-secondary">.</span>
+          </h1>
+          <h2 class="text-md lg:text-2xl font-bold text-slate-600">
+            by kominfo Badung
+          </h2>
+          <p class="font-normal text-slate-300">FAQ</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container p-8 mx-auto">
+      <div class="rounded-lg shadow-lg mb-9 p-8 flex space-x-4">
+        <div>
+          <h4 class="font-bold text-slate-800 text-lg">1</h4>
+        </div>
+        <div>
+          <p class="text-slate-500 text-base">
+            Bagaimana cara logout dari website?
+          </p>
+        </div>
+        <div>
+          <button>
+            <img src="./dist/img/Vector.svg" alt="arrow" />
+          </button>
+        </div>
+      </div>
+    </div>
+    <!--Section Content-->
+    <script src="./dist/js/script.js"></script>
+  </body>
+</html>

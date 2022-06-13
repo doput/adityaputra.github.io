@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dist/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <!--Header Start-->
+    <header
+      class="bg-transparent fixed top-0 left-0 w-full flex items-center z-10"
+    >
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <div class="px-4">
+            <a href="#home" class="font-bold text-2xl block py-6 text-slate-900"
+              >STower<span class="text-secondary">.</span></a
+            >
+          </div>
+          <div class="flex items-center px-4">
+            <button
+              id="hamburger"
+              name="hamburger"
+              type="button"
+              class="block absolute right-4 lg:hidden"
+            >
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-top-left"
+              ></span>
+              <span class="hamburger-line duration-300 ease-in-out"></span>
+              <span
+                class="hamburger-line duration-300 ease-in-out origin-bottom-left"
+              ></span>
+            </button>
+
+            <nav
+              id="nav-menu"
+              class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg-max-w-full lg:shadow-none lg:rounded-none"
+            >
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a
+                    href="#home"
+                    class="text-base text-slate-800 py-2 mx-8 flex group-hover:text-primary"
+                    >Beranda</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#home"
+                    class="text-base text-slate-800 py-2 mx-8 flex group-hover:text-primary"
+                    >FAQ</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="./about.html"
+                    class="text-base text-slate-800 py-2 mx-8 flex group-hover:text-primary"
+                    >About</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--Header End-->
+
+    <!--Hero Section-->
+    <section id="home" class="pt-36">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full self-center px-4 lg:w-1/2">
+            <h1 class="text-base font-semibold text-primary md:text-xl">
+              Selamat Datang di
+              <span class="font-bold text-slate-900 text-4xl lg:text-5xl"
+                >STower <span class="text-secondary">.</span></span
+              >🙏
+            </h1>
+            <h2 class="font-light text-slate-500 mb-10">
+              Website untuk pengajuan menara Dinas Kominfo Kabupaten Badung
+            </h2>
+
+            <a
+              href="./sign.html"
+              class="text-ba se font-semibold text-white bg-primary py-3 px-8 rounded-full mt-100 shadow-lg hover:opacity-80 transition duration-300 ease-in-out"
+            >
+              Ayo Mulai
+            </a>
+          </div>
+
+          <div class="w-full self-end px-4 lg:w-1/2">
+            <div class="mt-10">
+              <img
+                src="dist/img/1.png"
+                alt=""
+                class="max-w-full mx-auto w-96"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Hero Section End-->
+
+    <script src="dist/js/script.js"></script>
+  </body>
+</html>
