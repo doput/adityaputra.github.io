@@ -31,3 +31,16 @@ modalHide.addEventListener('click', () => {
   modalContainer.classList.toggle('hidden');
 });
 */
+
+window.addEventListener('DOMContentLoaded', () => {
+  const faqBtn1 = document.querySelector('#faq-btn1');
+  const faqMenu1 = document.querySelector('#dropdown');
+
+  faqBtn1.addEventListener('click', () => {
+    if (faqMenu1.classList.contains('hidden')) {
+      faqMenu1.classList.remove('hidden');
+    } else {
+      faqMenu1.classList.add('hidden');
+    }
+  });
+});

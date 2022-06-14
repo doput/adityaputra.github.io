@@ -21,7 +21,9 @@
       <div class="container">
         <div class="flex items-center justify-between relative">
           <div class="px-4">
-            <a href="#home" class="font-bold text-2xl block py-6 text-slate-900"
+            <a
+              href="./index.html"
+              class="font-bold text-2xl block py-6 text-slate-900"
               >STower<span class="text-secondary">.</span></a
             >
           </div>
@@ -62,7 +64,7 @@
                 </li>
                 <li class="group">
                   <a
-                    href="#home"
+                    href="./about.html"
                     class="text-base text-slate-800 py-2 mx-8 flex group-hover:text-primary"
                     >About</a
                   >
@@ -92,20 +94,37 @@
       </div>
     </div>
 
-    <div class="container p-8 mx-auto">
-      <div class="rounded-lg shadow-lg mb-9 p-8 flex space-x-4">
+    <div class="container p-8 w-full">
+      <button
+        id="faq-btn1"
+        class="shadow-md p-8 rounded-md bg-sky-500 flex w-full text-xs"
+      >
+        <h2 class="font-bold text-white text-sm">
+          1. Bagaimana cara logout account? ⬇️
+        </h2>
+      </button>
+      <div id="dropdown" class="hidden w-full">
         <div>
-          <h4 class="font-bold text-slate-800 text-lg">1</h4>
+          <div class="mt-2 shadow-md p-4 flex text-sm">
+            <div><h3>1️⃣</h3></div>
+            <div>
+              <h3 class="font-normal text-slate-500 mx-2">Pergi Ke menu</h3>
+            </div>
+          </div>
         </div>
-        <div>
-          <p class="text-slate-500 text-base">
-            Bagaimana cara logout dari website?
-          </p>
+        <div class="mt-2 shadow-md text-sm p-4 flex">
+          <div><h3>2️⃣</h3></div>
+          <div>
+            <h3 class="font-normal text-slate-500 mx-2">Cari menu Logout</h3>
+          </div>
         </div>
-        <div>
-          <button>
-            <img src="./dist/img/Vector.svg" alt="arrow" />
-          </button>
+        <div class="mt-2 shadow-md p-4 flex text-sm">
+          <div><h3>3️⃣</h3></div>
+          <div>
+            <h3 class="font-normal text-slate-500 mx-2">
+              Jika logout berhasil anda akan di arahkan ke halaman utama
+            </h3>
+          </div>
         </div>
       </div>
     </div>
